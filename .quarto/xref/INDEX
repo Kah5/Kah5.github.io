@@ -118,5 +118,35 @@
   },
   "projects/PIPO data fusion/index.qmd": {
     "index.html": "0ee9be69"
+  },
+  "posts/ESA2020/ESA2020.qmd": {
+    "ESA2020.html": "02eae995"
+  },
+  "posts/AGU2021/AGU.qmd": {
+    "AGU.html": "4a16ff23"
+  },
+  "posts/State Space Model Workshop/ssmworkshop.qmd": {
+    "ssmworkshop.html": "6871ab1e"
+  },
+  "posts/KVOA news article/kvoa.qmd": {
+    "kvoa.html": "e297205c"
+  },
+  "posts/In the news/news.qmd": {
+    "news.html": "9a76fd58"
+  },
+  "posts/Welcome/welcome.qmd": {
+    "welcome.html": "a9e9587a"
+  },
+  "posts/PIED_PNAS/pied.qmd": {
+    "pied.html": "257dd04e"
+  },
+  "posts/Ecoforecasting Award/Ecoforecast.qmd": {
+    "Ecoforecast.html": "33da2b28"
+  },
+  "posts/HearstMedia/hearst.qmd": {
+    "hearst.html": "3ad0d15a"
+  },
+  "posts/Quarto/quarto.qmd": {
+    "quarto.html": "d7d25c0f"
   }
 }

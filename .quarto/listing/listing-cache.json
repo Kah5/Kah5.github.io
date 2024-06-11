@@ -10,8 +10,7 @@
       "publications/*/**.qmd"
     ],
     "posts.qmd": [
-      "posts/*/**.qmd",
-      "posts"
+      "posts/*/**.qmd"
     ]
   }
 }
