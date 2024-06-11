@@ -31,6 +31,7 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/Quarto/index.html",
       "/posts/PIED_PNAS/index.html",
       "/posts/State Space Model Workshop/index.html",
       "/posts/Ecoforecasting Award/index.html",
