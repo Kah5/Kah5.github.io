@@ -1,9 +1,9 @@
 {
     "id": "AFF604C2",
-    "path": "~/Documents/Heilman_2024_website/posts/State Space Model Workshop/index.qmd",
-    "project_path": "posts/State Space Model Workshop/index.qmd",
+    "path": "~/Documents/Heilman_2024_website/posts/State Space Model Workshop/ssmworkshop.qmd",
+    "project_path": "posts/State Space Model Workshop/ssmworkshop.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "1058428182",
     "contents": "",
     "dirty": false,
     "created": 1718123637282.0,
@@ -25,7 +25,7 @@
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1718125944360,
+    "last_content_update": 1718125944,
     "read_only": false,
     "read_only_alternatives": []
 }
