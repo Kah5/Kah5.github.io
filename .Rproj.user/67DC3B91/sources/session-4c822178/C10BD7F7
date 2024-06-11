@@ -1,14 +1,14 @@
 {
-    "id": "D0E1239E",
-    "path": "~/Documents/Heilman_2024_website/about.qmd",
-    "project_path": "about.qmd",
+    "id": "C10BD7F7",
+    "path": "~/Documents/Heilman_2024_website/index.qmd",
+    "project_path": "index.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "1138848048",
     "contents": "",
     "dirty": false,
-    "created": 1718125817402.0,
+    "created": 1718127499556.0,
     "source_on_save": false,
-    "relative_order": 6,
+    "relative_order": 7,
     "properties": {
         "rmdVisualMode": "false",
         "rmdVisualWrapConfigured": "true",
@@ -16,16 +16,16 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "2:53",
+        "rmdVisualModeLocation": "1594:133.5",
         "cursorPosition": "57,0",
-        "scrollLine": "0"
+        "scrollLine": "46"
     },
     "folds": "",
-    "lastKnownWriteTime": 1718127317,
+    "lastKnownWriteTime": 1718127527,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1718127317290,
+    "last_content_update": 1718127528000,
     "read_only": false,
     "read_only_alternatives": []
 }
