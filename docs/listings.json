@@ -31,15 +31,15 @@
   {
     "listing": "/posts.html",
     "items": [
-      "/posts/PIED_PNAS/index.html",
-      "/posts/State Space Model Workshop/index.html",
-      "/posts/Ecoforecasting Award/index.html",
-      "/posts/HearstMedia/index.html",
-      "/posts/KVOA news article/index.html",
-      "/posts/In the news/index.html",
-      "/posts/AGU2021/index.html",
-      "/posts/ESA2020/index.html",
-      "/posts/Welcome/index.html"
+      "/posts/PIED_PNAS/pied.html",
+      "/posts/State Space Model Workshop/ssmworkshop.html",
+      "/posts/Ecoforecasting Award/Ecoforecast.html",
+      "/posts/HearstMedia/hearst.html",
+      "/posts/KVOA news article/kvoa.html",
+      "/posts/In the news/news.html",
+      "/posts/AGU2021/AGU.html",
+      "/posts/ESA2020/ESA2020.html",
+      "/posts/Welcome/welcome.html"
     ]
   }
 ]
