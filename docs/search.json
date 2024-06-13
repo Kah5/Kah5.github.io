@@ -161,6 +161,62 @@
     "text": "Abstract\nRobust ecological forecasting of tree growth under future climate conditions is critical to anticipate future forest carbon storage and flux. Here, we apply three ingredients of ecological forecasting that are key to improving forecast skill: data fusion, confronting model predictions with new data, and partitioning forecast uncertainty. Specifically, we present the first fusion of tree-ring and forest inventory data within a Bayesian state-space model at a multi-site, regional scale, focusing on Pinus ponderosa var. brachyptera in the southwestern US. Leveraging the complementarity of these two data sources, we parsed the ecological complexity of tree growth into the effects of climate, tree size, stand density, site quality, and their interactions, and quantified uncertainties associated with these effects. New measurements of trees, an ongoing process in forest inventories, were used to confront forecasts of tree diameter with observations, and evaluate alternative tree growth models. We forecasted tree diameter and increment in response to an ensemble of climate change projections, and separated forecast uncertainty into four different causes: initial conditions, parameters, climate drivers, and process error. We found a strong negative effect of fall–spring maximum temperature, and a positive effect of water-year precipitation on tree growth. Furthermore, tree vulnerability to climate stress increases with greater competition, with tree size, and at poor sites. Under future climate scenarios, we forecast increment declines of 22%–117%, while the combined effect of climate and size-related trends results in a 56%–91% decline. Partitioning of forecast uncertainty showed that diameter forecast uncertainty is primarily caused by parameter and initial conditions uncertainty, but increment forecast uncertainty is mostly caused by process error and climate driver uncertainty. This fusion of tree-ring and forest inventory data lays the foundation for robust ecological forecasting of aboveground biomass and carbon accounting at tree, plot, and regional scales, including iterative improvement of model skill."
   },
   {
+    "objectID": "posts/Quarto/quarto.html",
+    "href": "posts/Quarto/quarto.html",
+    "title": "Migrating my website from Academic Hugo to Quarto",
+    "section": "",
+    "text": "After several years of sporadically updating my website using Hugo and Academic hugo, I decided the past framework was too difficult to keep up with and started off with Quarto, which seems much more user friendly, with the preview options. I really liked the design and customization I had with my old website, so I hope to continue to customize my website with Quarto."
+  },
+  {
+    "objectID": "posts/Quarto/quarto.html#finally-caved-and-started-from-scratch-ish-with-quarto",
+    "href": "posts/Quarto/quarto.html#finally-caved-and-started-from-scratch-ish-with-quarto",
+    "title": "Migrating my website from Academic Hugo to Quarto",
+    "section": "",
+    "text": "After several years of sporadically updating my website using Hugo and Academic hugo, I decided the past framework was too difficult to keep up with and started off with Quarto, which seems much more user friendly, with the preview options. I really liked the design and customization I had with my old website, so I hope to continue to customize my website with Quarto."
+  },
+  {
+    "objectID": "posts/Quarto/quarto.html#getting-to-know-quarto",
+    "href": "posts/Quarto/quarto.html#getting-to-know-quarto",
+    "title": "Migrating my website from Academic Hugo to Quarto",
+    "section": "Getting to know Quarto",
+    "text": "Getting to know Quarto\nI started by reading through the Quarto resources on starting a website, and worked through the website tab here: https://quarto.org/docs/websites/ It was very easy to get started in a new repo."
+  },
+  {
+    "objectID": "posts/Quarto/quarto.html#useful-blogs-if-you-are-thinking-about-converting",
+    "href": "posts/Quarto/quarto.html#useful-blogs-if-you-are-thinking-about-converting",
+    "title": "Migrating my website from Academic Hugo to Quarto",
+    "section": "Useful blogs if you are thinking about converting",
+    "text": "Useful blogs if you are thinking about converting\n\nTips for converting to quarto from a hugo framework https://www.njtierney.com/post/2022/04/11/rmd-to-qmd/\nAn blog post about setting up and formatting a quarto webpage https://ddimmery.com/posts/quarto-website/\nI found this post after creating my site, but has some good resources for customizing and a template: https://www.marvinschmitt.com/blog/website-tutorial-quarto/"
+  },
+  {
+    "objectID": "posts/Quarto/quarto.html#messing-around-using-old-content",
+    "href": "posts/Quarto/quarto.html#messing-around-using-old-content",
+    "title": "Migrating my website from Academic Hugo to Quarto",
+    "section": "Messing around & using old content",
+    "text": "Messing around & using old content\nI wanted to keep alot of my older content, which was easy with a little bit of effort. To migrate over the individual pages, I needed to change all the old markdown files to .qmd files. For example, my older pages were named about.md, interests.md, publications.md, and posts.md, so I copied these over and renamed them to about.qmd, interests.qmd, publications.qmd, and posts.qmd. Some changes needed to be made to the headers of these files–mainly, removing some older tags that were not being used and ensuring indenting and formatting was consistent. This required a bit of trial and error."
+  },
+  {
+    "objectID": "posts/Quarto/quarto.html#migrating-old-blog-posts",
+    "href": "posts/Quarto/quarto.html#migrating-old-blog-posts",
+    "title": "Migrating my website from Academic Hugo to Quarto",
+    "section": "Migrating old blog posts",
+    "text": "Migrating old blog posts\nMigrating older blog posts was also relatively straightforward. I have all the posts in a posts/ folder, with individual folders for each post, which kelps me keep the images and associated files with the posts straight. I just had to make sure the posts.qmd file pointed to posts/*/**.qmd in order to render each post individually. I like the layout options for listing posts with quarto with the post, an image, and date."
+  },
+  {
+    "objectID": "posts/Quarto/quarto.html#migrating-publications",
+    "href": "posts/Quarto/quarto.html#migrating-publications",
+    "title": "Migrating my website from Academic Hugo to Quarto",
+    "section": "Migrating publications",
+    "text": "Migrating publications\nMoving my publications list over was a little more complicated because I wasn’t too excited about the default listing options in Quarto for academic publications. I did some digging, and found some good advice on this issue thread: https://github.com/quarto-dev/quarto-cli/issues/1324. I adapted the custom article.ejs from this post to fit my uses–mostly, I added buttons to link to pdfs of my publication, data repositories, and code. I added some custom bi icons to the buttons as well, and removed some of the breaks/moved around order of authors, etc. To apply the settings in article.ejs to my publication listings, in the publications.qmd file, I just add a line for the template template: ./ejs/article.ejs, which takes the settings from the article.ejs to apply to the publications list. I still want to improve the look of this page, but it is much closer to what I want now!"
+  },
+  {
+    "objectID": "posts/Quarto/quarto.html#deploying-my-new-site",
+    "href": "posts/Quarto/quarto.html#deploying-my-new-site",
+    "title": "Migrating my website from Academic Hugo to Quarto",
+    "section": "Deploying my new site",
+    "text": "Deploying my new site\nMost of the guides online assume that you don’t already have a website deployed as a github page, so they are useful, but I had to figure out where to put the code for my new website.Once I was ready to deploy, I stopped deploying my old website by going to my repo, clicking on settings, then pages and in the drop down menu under branch, switched from deplying from the branch main to none. This stops depolying my older website code (see: https://docs.github.com/en/pages/getting-started-with-github-pages/deleting-a-github-pages-site). I decided to archive my old website code by renaming my old github repo from username.github.io to username.old.github.io, then I created a blank repo called username.github.io. I am not sure this is the best option, but it seemed to be the simplest for my case. Then, in the working repo, I set the remote origin to my desired github.io repo: username.github.io, after that, I followed the instructions to publish via docs here: https://quarto.org/docs/publishing/github-pages.html. Once I deployed my page at Kah5.github.io, I had my personal website domain point to my Kah5.github.io page."
+  },
+  {
     "objectID": "posts/Ecoforecasting Award/Ecoforecast.html",
     "href": "posts/Ecoforecasting Award/Ecoforecast.html",
     "title": "ESA Ecoforecasting Award 2022",
@@ -361,6 +417,6 @@
     "href": "posts.html",
     "title": "Blog Posts",
     "section": "",
-    "text": "New Paper out in PNAS & NSF Coverage\n\n\n\n\n\n\n\n\n\n\n\nJun 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWorkshop & Tutorial: State-Space Model for tree ring data in NFIs\n\n\n\n\n\n\n\n\n\n\n\nNov 20, 2023\n\n\nKelly Heilman\n\n\n\n\n\n\n\n\n\n\n\n\nNew Position with ORAU and USDA Forest Service\n\n\n\n\n\n\n\n\n\n\n\nMar 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nESA Ecoforecasting Award 2022\n\n\n\n\n\n\n\n\n\n\n\nSep 20, 2022\n\n\nKelly Heilman\n\n\n\n\n\n\n\n\n\n\n\n\nEarth Day feature on our research linking tree ring and forest inventory data!\n\n\nForecasting Our Future\n\n\n\n\n\n\n\n\nFeb 10, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nKVOA Tucson feature on our new paper in Global Change Biology!\n\n\nFuture forests will have smaller trees and soak up less carbon, study suggests\n\n\n\n\n\n\n\n\nFeb 10, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nPress coverage on our new paper in Global Change Biology!\n\n\nFuture forests will have smaller trees and soak up less carbon, study suggests\n\n\n\n\n\n\n\n\nJan 27, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nAGU 2021 Poster Presentation\n\n\nCarbon accounting of ponderosa pine forests across the interior western U. S. based on tree-ring and forest inventory data\n\n\n\n\n\n\n\n\nDec 20, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nConferencing in the time of COVID-19\n\n\nESA 2020\n\n\n\n\n\n\n\n\nAug 7, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome\n\n\nMy first blog post\n\n\n\n\n\n\n\n\nMay 17, 2020\n\n\n\n\n\n\nNo matching items"
+    "text": "New Paper out in PNAS & NSF Coverage\n\n\n\n\n\n\n\n\n\n\n\nJun 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nMigrating my website from Academic Hugo to Quarto\n\n\nA naive guide\n\n\n\n\n\n\n\n\nJun 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWorkshop & Tutorial: State-Space Model for tree ring data in NFIs\n\n\n\n\n\n\n\n\n\n\n\nNov 20, 2023\n\n\nKelly Heilman\n\n\n\n\n\n\n\n\n\n\n\n\nNew Position with ORAU and USDA Forest Service\n\n\n\n\n\n\n\n\n\n\n\nMar 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nESA Ecoforecasting Award 2022\n\n\n\n\n\n\n\n\n\n\n\nSep 20, 2022\n\n\nKelly Heilman\n\n\n\n\n\n\n\n\n\n\n\n\nEarth Day feature on our research linking tree ring and forest inventory data!\n\n\nForecasting Our Future\n\n\n\n\n\n\n\n\nFeb 10, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nKVOA Tucson feature on our new paper in Global Change Biology!\n\n\nFuture forests will have smaller trees and soak up less carbon, study suggests\n\n\n\n\n\n\n\n\nFeb 10, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nPress coverage on our new paper in Global Change Biology!\n\n\nFuture forests will have smaller trees and soak up less carbon, study suggests\n\n\n\n\n\n\n\n\nJan 27, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nAGU 2021 Poster Presentation\n\n\nCarbon accounting of ponderosa pine forests across the interior western U. S. based on tree-ring and forest inventory data\n\n\n\n\n\n\n\n\nDec 20, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nConferencing in the time of COVID-19\n\n\nESA 2020\n\n\n\n\n\n\n\n\nAug 7, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome\n\n\nMy first blog post\n\n\n\n\n\n\n\n\nMay 17, 2020\n\n\n\n\n\n\nNo matching items"
   }
 ]

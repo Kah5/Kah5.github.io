@@ -32,6 +32,7 @@
     "listing": "/posts.html",
     "items": [
       "/posts/PIED_PNAS/pied.html",
+      "/posts/Quarto/quarto.html",
       "/posts/State Space Model Workshop/ssmworkshop.html",
       "/posts/USFS/USFS_ORAU.html",
       "/posts/Ecoforecasting Award/Ecoforecast.html",
