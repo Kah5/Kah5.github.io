@@ -7,20 +7,37 @@ summary: ""
 authors: []
 tags: []
 categories: []
-date: 2024-06-10T17:35:45-07:00
-lastmod: 2024-06-10T17:35:45-07:00
-featured: false
-draft: truee
+date: 2024-06-01T17:35:45-07:00
+lastmod: 2024-06-01T17:35:45-07:00
+draft: false
 ---
 
 ## Finally caved and started from scratch (ish) with Quarto
 
 After several years of sporadically updating my website using Hugo and Academic hugo, I decided the past framework was too difficult to keep up with and started off with Quarto, which seems much more user friendly, with the preview options. I really liked the design and customization I had with my old website, so I hope to continue to customize my website with Quarto.
 
-## Getting to know Quatro
+## Getting to know Quarto
+
+I started by reading through the Quarto resources on starting a website, and worked through the website tab here: <https://quarto.org/docs/websites/> It was very easy to get started in a new repo.
+
+## Useful blogs if you are thinking about converting
+
+- Tips for converting to quarto from a hugo framework <https://www.njtierney.com/post/2022/04/11/rmd-to-qmd/>
+- An blog post about setting up and formatting a quarto webpage <https://ddimmery.com/posts/quarto-website/>
+- I found this post after creating my site, but has some good resources for customizing and a template: <https://www.marvinschmitt.com/blog/website-tutorial-quarto/>
 
 ## Messing around & using old content
 
+I wanted to keep alot of my older content, which was easy with a little bit of effort. To migrate over the individual pages, I needed to change all the old markdown files to .qmd files. For example, my older pages were named `about.md`, `interests.md`, `publications.md`, and `posts.md`, so I copied these over and renamed them to `about.qmd`, `interests.qmd`, `publications.qmd`, and `posts.qmd`. Some changes needed to be made to the headers of these files--mainly, removing some older tags that were not being used and ensuring indenting and formatting was consistent. This required a bit of trial and error.
+
 ## Migrating old blog posts
 
+Migrating older blog posts was also relatively straightforward. I have all the posts in a `posts/` folder, with individual folders for each post, which kelps me keep the images and associated files with the posts straight. I just had to make sure the `posts.qmd` file pointed to `posts/*/**.qmd` in order to render each post individually. I like the layout options for listing posts with quarto with the post, an image, and date.
+
 ## Migrating publications
+
+Moving my publications list over was a little more complicated because I wasn't too excited about the default listing options in Quarto for academic publications. I did some digging, and found some good advice on this issue thread: https://github.com/quarto-dev/quarto-cli/issues/1324. I adapted the custom `article.ejs` from this post to fit my uses--mostly, I added buttons to link to pdfs of my publication, data repositories, and code. I added some custom bi icons to the buttons as well, and removed some of the breaks/moved around order of authors, etc. To apply the settings in article.ejs to my publication listings, in the `publications.qmd` file, I just add a line for the template template: ./ejs/article.ejs, which takes the settings from the article.ejs to apply to the publications list. I still want to improve the look of this page, but it is much closer to what I want now!
+
+## Deploying my new site
+
+Most of the guides online assume that you don't already have a website deployed as a github page, so they are useful, but I had to figure out where to put the code for my new website.Once I was ready to deploy, I stopped deploying my old website by going to my repo, clicking on `settings`, then `pages` and in the drop down menu under `branch`, switched from deplying from the branch `main` to `none`. This stops depolying my older website code (see: <https://docs.github.com/en/pages/getting-started-with-github-pages/deleting-a-github-pages-site>). I decided to archive my old website code by renaming my old github repo from `username.github.io` to `username.old.github.io`, then I created a blank repo called `username.github.io`. I am not sure this is the best option, but it seemed to be the simplest for my case. Then, in the working repo, I set the remote origin to my desired github.io repo: `username.github.io`, after that, I followed the instructions to publish via docs here: <https://quarto.org/docs/publishing/github-pages.html>. Once I deployed my page at Kah5.github.io, I had my personal website domain point to my Kah5.github.io page.

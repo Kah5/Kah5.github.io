@@ -148,5 +148,8 @@
   },
   "posts/Quarto/quarto.qmd": {
     "quarto.html": "d7d25c0f"
+  },
+  "posts/USFS/USFS_ORAU.qmd": {
+    "USFS_ORAU.html": "a3d5ebd8"
   }
 }
