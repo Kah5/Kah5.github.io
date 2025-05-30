@@ -32,6 +32,7 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/EFI2025/EFI2025.html",
       "/posts/AGU2024/AGU2024.html",
       "/posts/PIED_PNAS/pied.html",
       "/posts/Quarto/quarto.html",
