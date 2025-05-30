@@ -1,0 +1,30 @@
+---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
+title: "Ecological Forecasting Initiative 2025 Poster"
+subtitle: ""
+summary: ""
+authors: []
+tags: []
+categories: []
+date: 2025-05-22
+lastmod: 2025-05-22
+featured: false
+draft: false
+---
+
+I presented a poster on some ongoing work that uses tree ring data and forest inventory data at the Ecological Forecasting Initiative Conference at Virginia Tech last week!
+
+This work outlines some options we are considering for data assimilation of forest inventory measurements into a tree growth model that estimated on \~16,000 cored trees in the North Eastern US.
+
+Check out my poster below:
+
+![](EFI_2025_poster_5.16.25.pdf)
+
+**References:**
+
+1.  Smith, R. B., Hornbeck, J. W., Federer, C. A., J, P., Krusic, J., & Jr..Krusic, P. J. (1990). Regionally averaged diameter growth in New England forests. *Res. Pap. NE-637. Radnor, PA: US. Department of Agriculture, Forest Service, Northeastern Forest Experiment Station. 26 p.*, *637*. <https://doi.org/10.2737/NE-RP-637>
+2.  Hornbeck, J. W., Smith, R. B., & Federer, C. A. (1988). Growth trends in 10 species of trees in New England, 1950--1980. *Canadian Journal of Forest Research*, *18*(10), 1337--1340. <https://doi.org/10.1139/x88-206>
+3.  Canham, C. D., Murphy, L., Riemann, R., McCullough, R., & Burrill, E. (2018). Local differentiation in tree growth responses to climate. *Ecosphere*, *9*(8), e02368. <https://doi.org/10.1002/ecs2.2368>
+4.  Evans, M. E. K., DeRose, R. J., Klesse, S., Girardin, M. P., Heilman, K. A., Alexander, M. R., Arsenault, A., Babst, F., Bouchard, M., Cahoon, S. M. P., Campbell, E. M., Dietze, M., Duchesne, L., Frank, D. C., Giebink, C. L., Gómez-Guerrero, A., García, G. G., Hogg, E. H., Metsaranta, J., ... GaytÁn, S. A. V. (2022). Adding Tree Rings to North America's National Forest Inventories: An Essential Tool to Guide Drawdown of Atmospheric CO2. *BioScience*, *72*(3), 233--246. <https://doi.org/10.1093/biosci/biab119>
+5.  Heilman, K. A., Dietze, M. C., Arizpe, A. A., Aragon, J., Gray, A., Shaw, J. D., Finley, A. O., Klesse, S., DeRose, R. J., & Evans, M. E. K. (2022). Ecological forecasting of tree growth: Regional fusion of tree-ring and forest inventory data to quantify drivers and characterize uncertainty. *Global Change Biology. 28: 2442-2460.*, *28*, 2442--2460. <https://doi.org/10.1111/gcb.16038>
