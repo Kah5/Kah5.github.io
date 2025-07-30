@@ -18,6 +18,7 @@
   {
     "listing": "/publications.html",
     "items": [
+      "/publications/SFTS_challenges/SFTS_NCC_comment.html",
       "/publications/GHG_resource_bulletin_2024/GHG_2024.html",
       "/publications/PinusEdulis/PIED.html",
       "/publications/treeringfia/heilman2022.html",
@@ -32,6 +33,7 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/SFTS_NCC/SFTS_NCC.html",
       "/posts/EFI2025/EFI2025.html",
       "/posts/AGU2024/AGU2024.html",
       "/posts/PIED_PNAS/pied.html",
