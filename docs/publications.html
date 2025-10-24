@@ -82,9 +82,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-editor','listing-language','listing-title','listing-type','listing-author','listing-year','listing-publication','listing-doi','listing-pdf','listing-categories','listing-path','listing-outputHref','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-code','listing-data','listing-draft','listing-dataset','listing-toc',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-editor','listing-language','listing-title','listing-type','listing-author','listing-year','listing-publication','listing-doi','listing-pdf','listing-code','listing-categories','listing-path','listing-outputHref','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-data','listing-draft','listing-dataset','listing-toc',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-editor","listing-language","listing-title","listing-type","listing-author","listing-year","listing-publication","listing-doi","listing-pdf","listing-categories","listing-path","listing-outputHref","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-code","listing-data","listing-draft","listing-dataset","listing-toc"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-editor","listing-language","listing-title","listing-type","listing-author","listing-year","listing-publication","listing-doi","listing-pdf","listing-code","listing-categories","listing-path","listing-outputHref","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-data","listing-draft","listing-dataset","listing-toc"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -193,7 +193,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(10)</span></div><div class="category" data-category="-Space-for-time substitution -Ecological Forecasting">-Space-for-time substitution -Ecological Forecasting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Bayesian statistics">Bayesian statistics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="CO2 fertilization">CO2 fertilization <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Drought Stress">Drought Stress <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Eastern US">Eastern US <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Forecasting">Forecasting <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Forest Carbon">Forest Carbon <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Forest Carbon Policy">Forest Carbon Policy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Forest Inventory">Forest Inventory <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Growth">Growth <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Mortality">Mortality <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Natural Climate Solutions">Natural Climate Solutions <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Oaks">Oaks <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Pinus Edulis">Pinus Edulis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Tree Ring">Tree Ring <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Water Use Efficiency">Water Use Efficiency <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Western US">Western US <span class="quarto-category-count">(1)</span></div><div class="category" data-category="alternative stable states">alternative stable states <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ecological forecasting">ecological forecasting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="forest carbon">forest carbon <span class="quarto-category-count">(1)</span></div><div class="category" data-category="forest inventory">forest inventory <span class="quarto-category-count">(1)</span></div><div class="category" data-category="greenhouse gas reporting">greenhouse gas reporting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="journal article">journal article <span class="quarto-category-count">(2)</span></div><div class="category" data-category="oak savanna">oak savanna <span class="quarto-category-count">(1)</span></div><div class="category" data-category="past vegetation">past vegetation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="review">review <span class="quarto-category-count">(2)</span></div><div class="category" data-category="tree ring">tree ring <span class="quarto-category-count">(1)</span></div><div class="category" data-category="water use efficiency">water use efficiency <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(11)</span></div><div class="category" data-category="-Space-for-time substitution -Ecological Forecasting">-Space-for-time substitution -Ecological Forecasting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Bayesian statistics">Bayesian statistics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="CO2 fertilization">CO2 fertilization <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Drought Stress">Drought Stress <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Eastern US">Eastern US <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Forecasting">Forecasting <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Forest Carbon">Forest Carbon <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Forest Carbon Policy">Forest Carbon Policy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Forest Inventory">Forest Inventory <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Growth">Growth <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Inference">Inference <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Model development">Model development <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Mortality">Mortality <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Natural Climate Solutions">Natural Climate Solutions <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Oaks">Oaks <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Pinus Edulis">Pinus Edulis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Sampling">Sampling <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Tree Ring">Tree Ring <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Tree ring">Tree ring <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Water Use Efficiency">Water Use Efficiency <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Western US">Western US <span class="quarto-category-count">(1)</span></div><div class="category" data-category="alternative stable states">alternative stable states <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ecological forecasting">ecological forecasting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="forest carbon">forest carbon <span class="quarto-category-count">(1)</span></div><div class="category" data-category="forest inventory">forest inventory <span class="quarto-category-count">(1)</span></div><div class="category" data-category="greenhouse gas reporting">greenhouse gas reporting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="journal article">journal article <span class="quarto-category-count">(2)</span></div><div class="category" data-category="oak savanna">oak savanna <span class="quarto-category-count">(1)</span></div><div class="category" data-category="past vegetation">past vegetation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="review">review <span class="quarto-category-count">(2)</span></div><div class="category" data-category="tree ring">tree ring <span class="quarto-category-count">(1)</span></div><div class="category" data-category="water use efficiency">water use efficiency <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -224,7 +224,40 @@ window.Quarto = {
 </div>
 <ul class="pub-list list">
 
-  <li data-index="0" data-categories="-Space-for-time substitution -Ecological Forecasting" data-listing-file-modified-sort="1753911599359" data-listing-reading-time-sort="1" data-listing-word-count-sort="88">
+  <li data-index="0" data-categories="Sampling,Tree ring,Model development,Inference" data-listing-file-modified-sort="1761322379977" data-listing-reading-time-sort="2" data-listing-word-count-sort="285">
+    <span class="listing-author">Giebink, C.L., Heilman, K.A., Cahoon, S.M.P., Domke, G.M.</span><br>
+    <span class="listing-title lead">An assessment of the selection criteria, roles, and representativeness of indicator trees in the nationwide forest inventory of the United States.</span><br>
+    <span class="listing-year">(2025)</span>
+    <span class="listing-publication fst-italic ">Forest Ecology and Management</span><br>
+
+    <a href="./publications/FEM_sitetree/IndicatorTree.html" class="btn btn-light">
+      Details
+    </a>
+    
+    <a href="https://doi.org/10.1016/j.foreco.2025.123200" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+      DOI
+    </a>
+    
+
+    
+    <a href="pdfpapers/Giebink_Heilman_et_al_2025_FEM.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-file-earmark-text-fill"></i> PDF
+    </a>
+    
+
+    
+
+    
+    <a href="https://github.com/dey3434/PIED-Project" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-code-slash"></i> Code
+    </a>
+    
+
+    
+
+  </li>
+
+  <li data-index="1" data-categories="-Space-for-time substitution -Ecological Forecasting" data-listing-file-modified-sort="1753911599359" data-listing-reading-time-sort="1" data-listing-word-count-sort="88">
     <span class="listing-author">Kelly A. Heilman</span><br>
     <span class="listing-title lead">Reconsidering space-for-time substitution in climate change ecology.</span><br>
     <span class="listing-year">(2025)</span>
@@ -253,7 +286,7 @@ window.Quarto = {
 
   </li>
 
-  <li data-index="1" data-categories="greenhouse gas reporting,forest carbon" data-listing-file-modified-sort="1735678911418" data-listing-reading-time-sort="2" data-listing-word-count-sort="366">
+  <li data-index="2" data-categories="greenhouse gas reporting,forest carbon" data-listing-file-modified-sort="1735678911418" data-listing-reading-time-sort="2" data-listing-word-count-sort="366">
     <span class="listing-author">Domke, G.M.; Walters, B.F.; Smith, J.E.; Greenfield, E.J.; Giebink, C. L.; Ogle, S.M.; Steller, J.; Rewcastle, K.; Knott, J.A.; Coulston, John W.; Heilman, K.A.; Lang, A.K.</span><br>
     <span class="listing-title lead">Greenhouse gas emissions and removals from forest land, woodlands, urban trees, and harvested wood products in the United States, 1990–2022</span><br>
     <span class="listing-year">(2024)</span>
@@ -282,7 +315,7 @@ window.Quarto = {
 
   </li>
 
-  <li data-index="2" data-categories="Pinus Edulis,Tree Ring,Western US,Drought Stress,Growth,Forecasting" data-listing-file-modified-sort="1735678930649" data-listing-reading-time-sort="2" data-listing-word-count-sort="286">
+  <li data-index="3" data-categories="Pinus Edulis,Tree Ring,Western US,Drought Stress,Growth,Forecasting" data-listing-file-modified-sort="1735678930649" data-listing-reading-time-sort="2" data-listing-word-count-sort="286">
     <span class="listing-author">Evans, M.E., Dey, Sharmila M.N., Heilman, K.A., Tipton, J.R., DeRose, R.J., Klesse, S., Schulz, E.L., Shaw, J.D.</span><br>
     <span class="listing-title lead">Tree rings reveal the transient risk of extinction hidden inside climate envelope forecasts.</span><br>
     <span class="listing-year">(2024)</span>
@@ -319,7 +352,7 @@ window.Quarto = {
 
   </li>
 
-  <li data-index="3" data-categories="ecological forecasting,Bayesian statistics,tree ring,forest inventory,journal article" data-listing-file-modified-sort="1718119638673" data-listing-reading-time-sort="2" data-listing-word-count-sort="355">
+  <li data-index="4" data-categories="ecological forecasting,Bayesian statistics,tree ring,forest inventory,journal article" data-listing-file-modified-sort="1718119638673" data-listing-reading-time-sort="2" data-listing-word-count-sort="355">
     <span class="listing-author">Heilman, K.A., Dietze, M.C., Arizpe, A.A., Aragon, J., Gray, A., Shaw, J.D., Finley, A.O., Klesse, S., DeRose, R.J., &amp; Evans, M.E.K.</span><br>
     <span class="listing-title lead">Ecological forecasting of tree growth: Regional fusion of tree-ring and forest inventory data to quantify drivers and characterize uncertainty</span><br>
     <span class="listing-year">(2022)</span>
@@ -356,7 +389,7 @@ window.Quarto = {
 
   </li>
 
-  <li data-index="4" data-categories="Oaks,Tree Ring,Eastern US,Drought Stress,Growth,Mortality" data-listing-file-modified-sort="1718119773390" data-listing-reading-time-sort="2" data-listing-word-count-sort="210">
+  <li data-index="5" data-categories="Oaks,Tree Ring,Eastern US,Drought Stress,Growth,Mortality" data-listing-file-modified-sort="1718119773390" data-listing-reading-time-sort="2" data-listing-word-count-sort="210">
     <span class="listing-author">Novick, K., Jo, I., D'Orangeville, L., Benson, M. Au, T.F., Barnes, M., Denham, S., Fei, S. Heilman, K.A., Hwang, T., Keyser, T., Maxwell, J., Miniat, C., McLachlan, J.S., Pederson, N., Wang, L., Wood, J. D., P. Phillips, R.P.</span><br>
     <span class="listing-title lead">The Drought Response of Eastern US Oaks in the Context of Their Declining Abundance.</span><br>
     <span class="listing-year">(2022)</span>
@@ -385,7 +418,7 @@ window.Quarto = {
 
   </li>
 
-  <li data-index="5" data-categories="Forest Inventory,Tree Ring,Forest Carbon,Natural Climate Solutions,Growth,Forecasting" data-listing-file-modified-sort="1718117945042" data-listing-reading-time-sort="2" data-listing-word-count-sort="237">
+  <li data-index="6" data-categories="Forest Inventory,Tree Ring,Forest Carbon,Natural Climate Solutions,Growth,Forecasting" data-listing-file-modified-sort="1718117945042" data-listing-reading-time-sort="2" data-listing-word-count-sort="237">
     <span class="listing-author">Evans, M.K.,DeRose, R. J., Klesse, S.,  Girardin, M. P., Heilman, K.A., Alexander, M.R.,  Arsenault, A., Babst, F., Bouchard, M., Cahoon, S. M. P., Campbell, E., Dietze, M.C., Duchesne, L., Frank, D.C., Giebink, C.L., Gomez-Guerrero, A., Gutiérrez García, G., Villela Gaytán, S.A., Edward H. Hogg, E.H., Metsaranta, J., Ols, C., Rayback, S. A., Reid, A., Ricker, M., Schaberg, P. G., Shaw, J. D.,  Sullivan, P. F.</span><br>
     <span class="listing-title lead">The case for adding tree rings to North America’s national forest inventories: an essential tool to guide drawdown of atmospheric CO2.</span><br>
     <span class="listing-year">(2022)</span>
@@ -414,7 +447,7 @@ window.Quarto = {
 
   </li>
 
-  <li data-index="6" data-categories="Forest Carbon,review,Natural Climate Solutions,Forest Carbon Policy" data-listing-file-modified-sort="1753789351828" data-listing-reading-time-sort="2" data-listing-word-count-sort="285">
+  <li data-index="7" data-categories="Forest Carbon,review,Natural Climate Solutions,Forest Carbon Policy" data-listing-file-modified-sort="1753789351828" data-listing-reading-time-sort="2" data-listing-word-count-sort="285">
     <span class="listing-author">Giebink, C.L., Domke, G.M., Fisher, R.A., Moore, D.J.P.,  \textbf{Heilman, K.A.}, DeRose, J.D., Evans, M.E.K.</span><br>
     <span class="listing-title lead">The policy and ecology of forest-based climate mitigation: challenges, needs, and opportunities.</span><br>
     <span class="listing-year">(2022)</span>
@@ -443,7 +476,7 @@ window.Quarto = {
 
   </li>
 
-  <li data-index="7" data-categories="Oaks,Tree Ring,Eastern US,Drought Stress,Growth,Water Use Efficiency,CO2 fertilization" data-listing-file-modified-sort="1718119800708" data-listing-reading-time-sort="2" data-listing-word-count-sort="276">
+  <li data-index="8" data-categories="Oaks,Tree Ring,Eastern US,Drought Stress,Growth,Water Use Efficiency,CO2 fertilization" data-listing-file-modified-sort="1718119800708" data-listing-reading-time-sort="2" data-listing-word-count-sort="276">
     <span class="listing-author">Heilman, K.A.,  Trouet, V.,  Pederson, N., Belmecheri, S.,  Berke, M.A., McLachlan, J.S.</span><br>
     <span class="listing-title lead">Increased water use efficiency leads to decreased precipitation sensitivity of tree growth, but is offset by high temperatures.</span><br>
     <span class="listing-year">(2021)</span>
@@ -480,7 +513,7 @@ window.Quarto = {
 
   </li>
 
-  <li data-index="8" data-categories="CO2 fertilization,review,water use efficiency" data-listing-file-modified-sort="1718119742774" data-listing-reading-time-sort="2" data-listing-word-count-sort="385">
+  <li data-index="9" data-categories="CO2 fertilization,review,water use efficiency" data-listing-file-modified-sort="1718119742774" data-listing-reading-time-sort="2" data-listing-word-count-sort="385">
     <span class="listing-author">Walker, A. P.; Kauwe, M. G. D.; Bastos, A.; Belmecheri, S.; Georgiou, K.; Keeling, R. F.; McMahon, S. M.; Medlyn, B. E.; Moore, D. J. P.; Norby, R. J.; Zaehle, S.; AndersonTeixeira, K. J.; Battipaglia, G.; Brienen, R. J. W.; Cabugao, K. G.; Cailleret, M.; Campbell, E.; Canadell, J. G.; Ciais, P.; Craig, M. E.; Ellsworth, D. S.; Farquhar, G. D.; Fatichi, S.; Fisher, J. B.; Frank, D. C.; Graven, H.; Gu, L.; Haverd, V.; Heilman, K.A.; Heimann, M.; Hungate, B. A.; Iversen, C. M.; Joos, F.; Jiang, M.; Keenan, T. F.; Knauer, J.; Krner, C.; Leshyk, V. O.; Leuzinger, S.; Liu, Y.; MacBean, N.; Malhi, Y.; McVicar, T. R.; Penuelas, J.; Pongratz, J.; Powell, A. S.; Riutta, T.; Sabot, M. E. B.; Schleucher, J.; Sitch, S.; Smith, W. K.; Sulman, B.; Taylor, B.; Terrer, C.; Torn, M. S.; Treseder, K. K.; Trugman, A. T.; Trumbore, S. E.; Mantgem, P. J. van; Voelker, S. L.; Whelan, M. E.; Zuidema, P. A.</span><br>
     <span class="listing-title lead">Integrating the evidence for a terrestrial carbon sink caused by increasing atmospheric CO2</span><br>
     <span class="listing-year">(2020)</span>
@@ -509,7 +542,7 @@ window.Quarto = {
 
   </li>
 
-  <li data-index="9" data-categories="past vegetation,oak savanna,alternative stable states,journal article" data-listing-file-modified-sort="1718117960792" data-listing-reading-time-sort="2" data-listing-word-count-sort="343">
+  <li data-index="10" data-categories="past vegetation,oak savanna,alternative stable states,journal article" data-listing-file-modified-sort="1718117960792" data-listing-reading-time-sort="2" data-listing-word-count-sort="343">
     <span class="listing-author">Broderick, C.M., McLachlan, J.S., Heilman, K. A., Patterson, T., Peters,  J. A.</span><br>
     <span class="listing-title lead">Sharp Savanna-forest Transitions in the Midwest Followed Environmental Gradients but are Absent from the Modern Landscape</span><br>
     <span class="listing-year">(2018)</span>
